@@ -44,35 +44,36 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            padding: 12px;
+            padding: 16px;
         }
 
         .card {
             width: 100%;
-            max-width: 380px;
+            max-width: 400px;
             background: rgba(18, 18, 20, 0.95);
             backdrop-filter: blur(16px);
             -webkit-backdrop-filter: blur(16px);
             border: 1px solid rgba(245, 158, 11, 0.35);
-            border-radius: 18px;
-            padding: 18px 16px;
+            border-radius: 20px;
+            padding: 24px 20px;
             text-align: center;
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.95);
+            box-shadow: 0 18px 40px rgba(0, 0, 0, 0.95);
             position: relative;
             overflow: hidden;
         }
 
+        /* 20% बड़ा अवतार इमेज */
         .avatar-wrapper {
             position: relative;
-            width: 80px;
-            height: 80px;
-            margin: 0 auto 10px;
+            width: 96px;
+            height: 96px;
+            margin: 0 auto 14px;
         }
 
         .avatar-wrapper::before {
             content: '';
             position: absolute;
-            inset: -3px;
+            inset: -3.5px;
             border-radius: 50%;
             background: linear-gradient(135deg, #f59e0b, #22c55e, #eab308);
             animation: pulse-glow 3s infinite alternate;
@@ -86,7 +87,7 @@
             height: 100%;
             border-radius: 50%;
             object-fit: cover;
-            border: 2px solid #121214;
+            border: 2.5px solid #121214;
         }
 
         @keyframes pulse-glow {
@@ -94,23 +95,24 @@
             100% { opacity: 1; transform: scale(1.03); }
         }
 
+        /* 20% बड़ी हेडिंग */
         h1 {
             color: #fbbf24;
-            font-size: 18px;
+            font-size: 20px;
             font-weight: 800;
             letter-spacing: 0.5px;
-            margin-bottom: 8px;
+            margin-bottom: 10px;
             text-shadow: 0 2px 10px rgba(245, 158, 11, 0.3);
         }
 
         .sub-text {
-            font-size: 12px;
+            font-size: 13px;
             color: #e2e8f0;
-            line-height: 1.4;
-            margin-bottom: 10px;
+            line-height: 1.5;
+            margin-bottom: 14px;
             background: rgba(255, 255, 255, 0.04);
-            padding: 8px 10px;
-            border-radius: 8px;
+            padding: 10px 12px;
+            border-radius: 10px;
             border: 1px dashed rgba(245, 158, 11, 0.25);
         }
 
@@ -119,39 +121,39 @@
             background: rgba(34, 197, 94, 0.15);
             color: #4ade80;
             border: 1px solid rgba(34, 197, 94, 0.3);
-            padding: 4px 10px;
+            padding: 5px 12px;
             border-radius: 50px;
-            font-size: 11px;
+            font-size: 11.5px;
             font-weight: 700;
             letter-spacing: 0.5px;
-            margin-bottom: 6px;
+            margin-bottom: 8px;
         }
 
         .users-count {
             color: #a1a1aa;
-            font-size: 12px;
+            font-size: 12.5px;
             font-weight: 500;
-            margin-bottom: 12px;
+            margin-bottom: 14px;
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 4px;
+            gap: 5px;
         }
 
         .info-list {
             display: flex;
             flex-direction: column;
-            gap: 6px;
-            margin-bottom: 14px;
+            gap: 8px;
+            margin-bottom: 16px;
         }
 
         .info-box {
             background: rgba(32, 32, 36, 0.85);
             border: 1px solid rgba(255, 255, 255, 0.08);
             color: #f4f4f5;
-            padding: 8px 12px;
-            border-radius: 8px;
-            font-size: 13px;
+            padding: 10px 14px;
+            border-radius: 10px;
+            font-size: 13.5px;
             font-weight: 700;
             display: flex;
             align-items: center;
@@ -166,14 +168,14 @@
             background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
             color: #ffffff;
             font-weight: 800;
-            font-size: 15px;
+            font-size: 15.5px;
             letter-spacing: 0.5px;
-            padding: 12px;
+            padding: 14px;
             width: 100%;
             border: none;
-            border-radius: 10px;
+            border-radius: 12px;
             cursor: pointer;
-            box-shadow: 0 6px 20px rgba(34, 197, 94, 0.35);
+            box-shadow: 0 7px 22px rgba(34, 197, 94, 0.35);
             transition: all 0.3s ease;
             position: relative;
             overflow: hidden;
@@ -208,20 +210,20 @@
         .timer-badge {
             display: inline-flex;
             align-items: center;
-            gap: 4px;
+            gap: 5px;
             color: #fbbf24;
             background: rgba(245, 158, 11, 0.1);
             border: 1px solid rgba(245, 158, 11, 0.2);
-            padding: 4px 12px;
+            padding: 5px 14px;
             border-radius: 50px;
-            font-size: 12px;
+            font-size: 12.5px;
             font-weight: 600;
-            margin-top: 10px;
+            margin-top: 12px;
         }
 
         .footer-text {
-            margin-top: 12px;
-            font-size: 11px;
+            margin-top: 14px;
+            font-size: 11.5px;
             color: #71717a;
         }
 
